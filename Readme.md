@@ -85,10 +85,10 @@ Before starting, make sure you have the following installed:
 
 After running the script, check if the database `refer_and_earn` and the table `Referral` have been created successfully:
 
-```sql
-USE refer_and_earn;
-SHOW TABLES;
-DESCRIBE Referral;
+    ```sql
+    USE refer_and_earn;
+    SHOW TABLES;
+    DESCRIBE Referral;
 
 **Usage**
 
