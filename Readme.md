@@ -22,7 +22,7 @@ Before starting, make sure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Vedantjn/accredian-assignment
    cd refer-and-earn
 
 2. **Backend Setup**
