@@ -1,9 +1,11 @@
 # Accredian Assignment
 
 ## Introduction
+
 This project is a Full Stack application (Express.js, React.js, Node.js, SQL) for a Refer & Earn landing page. It allows users to refer a course to their friends through a user-friendly interface.
 
 ## Features
+
 - **Frontend**: Built with React.js, featuring a responsive and intuitive UI.
 - **Backend**: RESTful API developed with Node.js and Express.js, integrated with Prisma ORM for MySQL database connectivity.
 - **Database**: MySQL used to store referral data.
@@ -13,7 +15,9 @@ This project is a Full Stack application (Express.js, React.js, Node.js, SQL) fo
 ## Installation
 
 ### Prerequisites
+
 Before starting, make sure you have the following installed:
+
 - Node.js (version 14 or above)
 - npm (Node Package Manager)
 - MySQL database
@@ -21,48 +25,58 @@ Before starting, make sure you have the following installed:
 ### Steps to Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Vedantjn/accredian-assignment
    cd refer-and-earn
 
+   ```
+
 2. **Backend Setup**
 
 - Navigate to the backend directory:
-    ```bash
-    cd backend
+  ```bash
+  cd backend
+  ```
 - Install dependencies:
-    ```bash
-    npm install
+  ```bash
+  npm install
+  ```
 - Create a .env file based on .env.example and configure MySQL database connection details.
 
 3. **Database Setup**
 
 - Create a MySQL database named refer_and_earn.
 - Run Prisma migrations to create tables in the database:
-    ```bash
-    npx prisma migrate dev
+  ```bash
+  npx prisma migrate dev
+  ```
 
 4. **Start Backend Server**
 
 - Start the backend server:
-    ```bash
-    npm start
+  ```bash
+  npm start
+  ```
 - The server will run on http://localhost:5000.
 
 5. **Frontend Setup**
 
 - Open a new terminal window/tab and navigate to the frontend directory:
-    ```bash
-    cd frontend
+  ```bash
+  cd frontend
+  ```
 - Install dependencies:
-    ```bash
-    npm install
+  ```bash
+  npm install
+  ```
 
 6. **Start Frontend Server**
 
 - Start the frontend development server:
-    ```bash
-    npm start
+  ```bash
+  npm start
+  ```
 - The frontend will be accessible at http://localhost:3000.
 
 7. **Access the Application**
